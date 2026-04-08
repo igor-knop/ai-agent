@@ -3,7 +3,6 @@ import psycopg2
 from psycopg2 import sql
 import sys
 from psycopg2.extras import execute_values
-from sqlalchemy import values
 
 host = "localhost"
 database = "mydb"
